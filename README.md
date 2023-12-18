@@ -1,30 +1,29 @@
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+
+<h1>Configuring Active Directory with Azure VMs</h1>
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
+- Active Directory
+- File Permissions
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>Step 1: Resources in Azure</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create the Domain Controller VM(named "DC-1")
+- Set the Domain Controller's NIC Private IP adress to be static instead of dynaamic
+- Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group
+ and Vnet that was created in Step 1.a
+- Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher)
 
-<h2>Installation Steps</h2>
+
+<h2>Ensure Connectivity between the client and Domain Controller</h2>
 
 <p>
 <img src="https://i.imgur.com/chyaFyl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
