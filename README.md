@@ -68,6 +68,7 @@ Join Client-1 to your domain (mydomain.com)
 
 <p>
 <img width="507" alt="image" src="https://github.com/Jaxon-S/configure-ad/assets/154096378/8f11b3a3-25ee-4434-a475-a157011b91af">
+<img width="737" alt="image" src="https://github.com/Jaxon-S/configure-ad/assets/154096378/c688c592-0cde-498f-bfdf-7328f33658b7">
 
 </p>
 <p>
@@ -78,6 +79,12 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 
 Setup Remote Desktop for non-administrative users on Client-1
 <p></p>
+<img width="394" alt="image" src="https://github.com/Jaxon-S/configure-ad/assets/154096378/7a4ca823-69bf-415e-893b-18c7d1722bc2">
+
+
+
+
+
 
 
 Log into Client-1 as mydomain.com\jane_admin and open system properties. Click “Remote Desktop”, Allow “domain users” access to remote desktop. You can now log into Client-1 as a normal, non-administrative user.
