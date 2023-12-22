@@ -87,4 +87,4 @@ Setup Remote Desktop for non-administrative users on Client-1
 
 
 
-Log into Client-1 as mydomain.com\jane_admin and open system properties. Click “Remote Desktop”, Allow “domain users” access to remote desktop. You can now log into Client-1 as a normal, non-administrative user.
+Log into Client-1 as mydomain.com\jane_admin and open system properties. Click “Remote Desktop”, allow “domain users” access to remote desktop. You can now log into Client-1 as a normal, non-administrative user.
